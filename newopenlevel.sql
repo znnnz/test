@@ -1,0 +1,1 @@
+select min(id), data,perfect from unblock_easy where bestmoves = 0 and skipped != 1;
